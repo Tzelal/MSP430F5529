@@ -11,7 +11,7 @@ int main(void)
   {
       for(i=50000; i>0; i--);                   // Delay
       {
-          P4OUT ^= BIT7;                          // XOR P1.0
+          P4OUT ^= BIT7;                        // XOR P1.0
       }
       for(i=100000; i>0; i--);
       {
